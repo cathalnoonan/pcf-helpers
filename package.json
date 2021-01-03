@@ -1,0 +1,42 @@
+{
+  "name": "@cathalnoonan/pcf-helpers",
+  "version": "0.1.0",
+  "description": "Helper methods for working with Power Apps Component Framework",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "require": "./dist/index.js",
+    "node": "./dist/index.js",
+    "import": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cathalnoonan/pcf-helpers.git"
+  },
+  "author": "cathalnoonan",
+  "bugs": {
+    "url": "https://github.com/cathalnoonan/pcf-helpers/issues"
+  },
+  "homepage": "https://github.com/cathalnoonan/pcf-helpers#readme",
+  "license": "MIT",
+  "keywords": [
+    "xrm",
+    "crm",
+    "d365",
+    "powerapps",
+    "pcf"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc",
+    "prebuild": "npm run clean",
+    "prepare": "npm run build"
+  },  
+  "dependencies": {
+    "@types/powerapps-component-framework": "^1.2.3"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.3"
+  }  
+}
