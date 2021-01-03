@@ -5,7 +5,7 @@
 ## ThemeHelper
 
 ```typescript
-import { ThemeHelper, ThemeModel } from '@cathalnoonan/d365-pcf-helpers'
+import { ThemeHelper, ThemeModel } from '@cathalnoonan/pcf-helpers'
 
 export class MyPCF implements ComponentFramework.StandardControl<IInputs, IOutputs> {
 

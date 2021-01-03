@@ -5,7 +5,7 @@
 ## WebResourceHelper
 
 ```typescript
-import { WebResourceHelper, WebResourceModel } from '@cathalnoonan/d365-pcf-helpers'
+import { WebResourceHelper, WebResourceModel } from '@cathalnoonan/pcf-helpers'
 
 export class MyPCF implements ComponentFramework.StandardControl<IInputs, IOutputs> {
 
